@@ -1,7 +1,7 @@
 {
-  "name": "angular2-component-starter",
+  "name": "angular2-8-state",
   "version": "1.0.0",
-  "description": "Angular 2 Component Starter. Build and easily distribute an Angular 2 library.",
+  "description": "Angular 2 8-State Puzzle Component",
   "scripts": {
     "typings-install": "typings install",
     "postinstall": "npm run typings-install",
@@ -13,8 +13,8 @@
     "test": "karma start karma.conf.js --single-run"
   },
   "author": {
-    "name": "Giancarlo Buomprisco",
-    "email": "giancarlopsk@gmail.com"
+    "name": "Stu Schwartz",
+    "email": "stupschwartz@gmail.com"
   },
   "contributors": [],
   "license": "MIT",
@@ -61,23 +61,23 @@
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.0",
     "webpack-merge": "^0.8.4",
-    "zone.js": "~0.6.12"
+    "zone.js": "^0.6.25"
   },
   "dependencies": {},
   "keywords": [
     "angular 2",
-    "angular 2 boilerplate",
-    "angular 2 component starter",
-    "angular 2 component boilerplate"
+    "angular 2 8",
+    "angular 2 8 state",
+    "angular 2 8 puzzle"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Gbuomprisco/angular2-component-starter"
+    "url": "https://github.com/stupschwartz/8"
   },
   "bugs": {
-    "url": "https://github.com/Gbuomprisco/angular2-component-starter/issues"
+    "url": "https://github.com/stupschwartz/8/issues"
   },
-  "homepage": "https://github.com/Gbuomprisco/angular2-component-starter",
+  "homepage": "https://github.com/stupschwartz/8",
   "main": "./index.js",
   "files": [
     "dist",
