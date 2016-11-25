@@ -1,4 +1,4 @@
-const MyComponent = require('./dist/component.bundle.js').MyComponent;
+const EightBoard = require('./dist/component.bundle.js').EightBoard;
 
-exports.MyComponent = MyComponent;
-export {MyComponent};
+exports.EightBoard = EightBoard;
+export {EightBoard};
