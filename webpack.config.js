@@ -8,13 +8,13 @@ var autoprefixer = require('autoprefixer');
 var webpackConfig = {
     entry: {
         'vendor': ['@angular/core', '@angular/common'],
-        'component': './src/component.ts'
+        'component': './src/eight-board.component.ts'
     },
 
     output: {
         path: './dist',
         libraryTarget: "umd",
-        library: 'angular2-component-starter',
+        library: 'angular2-8-state',
         umdNamedRequire: true
     },
 

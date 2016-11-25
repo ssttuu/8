@@ -1,1 +1,1 @@
-/// <reference path="component.d.ts" />
+/// <reference path="eight-board.component.d.ts" />
